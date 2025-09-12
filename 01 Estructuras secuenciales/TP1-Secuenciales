@@ -62,7 +62,6 @@ print(f"""
         """)
 
 
-
 #8) Crear un programa que pida al usuario su altura y su peso e imprima por pantalla su índice
 #de masa corporal.
 altura = float(input("Por favor ingrese su altura en metros: "))
