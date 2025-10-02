@@ -87,55 +87,55 @@ def calcular_promedio(a, b, c):
 
 
 #Llamada 1ra funcion:
-#imprimir_hola_mundo()
+imprimir_hola_mundo()
 
 #Llamada 2da funcionP:
-#nombre_usuario = input("Ingrese su nombre: ")
-#print(saludar_usuario(nombre_usuario))
+nombre_usuario = input("Ingrese su nombre: ")
+print(saludar_usuario(nombre_usuario))
 
 #Llamada 3ra funcion:
-#nombre = input("Ingrese su nombre: ")
-#apellido = input("Ingrese su apellido: ")
-#edad = input("Ingrese su edad: ")
-#residencia = input("Ingrese su lugar de residencia: ")
-#informacion_personal(nombre, apellido, edad, residencia)
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+edad = input("Ingrese su edad: ")
+residencia = input("Ingrese su lugar de residencia: ")
+informacion_personal(nombre, apellido, edad, residencia)
 
 #Llamada a la 4ta funcion:
-#radio = float(input("Ingrese el radio para calcular area y perimetro: "))
-#print(f"Area del circulo: {calcular_area_circulo(radio):.2f}")
-#print(f"Perimetro del circulo: {calcular_perimetro_circulo(radio):.2f}")
+radio = float(input("Ingrese el radio para calcular area y perimetro: "))
+print(f"Area del circulo: {calcular_area_circulo(radio):.2f}")
+print(f"Perimetro del circulo: {calcular_perimetro_circulo(radio):.2f}")
 
 #Llamada  al 5ta funcion:
-#segundos = int(input("Ingrese la cantidad de segundos: "))
-#print(f"{segundos} segundos equivalen a {segundos_a_horas(segundos).2f} horas.")
+segundos = int(input("Ingrese la cantidad de segundos: "))
+print(f"{segundos} segundos equivalen a {segundos_a_horas(segundos).2f} horas.")
 
 #Llamada a las 6ta funcion:
-#numero = int(input("Ingrese el nro para ver su tabla de multiplicar: "))
-#tabla_multiplicar(numero)
+numero = int(input("Ingrese el nro para ver su tabla de multiplicar: "))
+tabla_multiplicar(numero)
 
 #Llamamda a la 7ma funcion:
-#a = float(input("Ingrese el primero numero: "))
-#b = float(input("Ingrese el segundo numero: "))
-#resultados = operaciones_basicas(a, b)
-#print("╔═════════════════════╗")
-#print("║ Operaciones basicas ║") #Bueno, bonito y claro.
-#print("╚═════════════════════╝")
-#print(f"Suma: {resultados[0]}")
-#print(f"Resta: {resultados[1]}")
-#print(f"Multiplicacion: {resultados[2]}")
-#print(f"Division: {resultados[3]}")
+a = float(input("Ingrese el primero numero: "))
+b = float(input("Ingrese el segundo numero: "))
+resultados = operaciones_basicas(a, b)
+print("╔═════════════════════╗")
+print("║ Operaciones basicas ║") #Bueno, bonito y claro.
+print("╚═════════════════════╝")
+print(f"Suma: {resultados[0]}")
+print(f"Resta: {resultados[1]}")
+print(f"Multiplicacion: {resultados[2]}")
+print(f"Division: {resultados[3]}")
 
 
 #Llamada a la 8va funcion:
-#peso = 0.0
-#altura = 0.0
-#peso = float(input("Ingrese el peso en kg: "))
-#altura = float(input("Ingrese la altura en metros: "))
-#print(f"El IMC es {calcular_imc:.2f}")
+peso = 0.0
+altura = 0.0
+peso = float(input("Ingrese el peso en kg: "))
+altura = float(input("Ingrese la altura en metros: "))
+print(f"El IMC es {calcular_imc:.2f}")
 
 #Llamada a la 9na funcion:
-#celsius = float(input("Ingrese la temperatura en numeros: "))
-#print(f"{celsius}°c equivalen a {celsius_a_fahrenheit(celsius):.2f}°f")
+celsius = float(input("Ingrese la temperatura en numeros: "))
+print(f"{celsius}°c equivalen a {celsius_a_fahrenheit(celsius):.2f}°f")
 
 #Llamada a la 10ma funcion:
 a = float(input("Ingrese el 1er numero: "))
