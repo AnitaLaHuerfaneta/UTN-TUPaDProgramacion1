@@ -107,7 +107,7 @@ print(f"Perimetro del circulo: {calcular_perimetro_circulo(radio):.2f}")
 
 #Llamada  al 5ta funcion:
 segundos = int(input("Ingrese la cantidad de segundos: "))
-print(f"{segundos} segundos equivalen a {segundos_a_horas(segundos).2f} horas.")
+print(f"{segundos} segundos equivalen a {segundos_a_horas(segundos):.2f} horas.")
 
 #Llamada a las 6ta funcion:
 numero = int(input("Ingrese el nro para ver su tabla de multiplicar: "))
